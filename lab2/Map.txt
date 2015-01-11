@@ -1,0 +1,8 @@
+#000000 BLACK
+#0000FF blue
+#006400 darkgreen
+#00FF00 green
+#BEBEBE grey
+#FF0000 red
+#FFFF00 yellow
+#FFFFFF while
