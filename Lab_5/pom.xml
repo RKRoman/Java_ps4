@@ -1,0 +1,73 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Lab_5</groupId>
+  <artifactId>Lab_5</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Lab_5</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+<repositories>
+  <repository>
+   <id>maven2-repository.dev.java.net</id>
+   <url>http://repo1.maven.org/maven2/org/eclipse/</url>
+  </repository>
+</repositories>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  
+    <dependency>
+  			<groupId>jetty</groupId>
+  			<artifactId>jetty-servlet</artifactId>
+  		</dependency>
+  		
+  		<dependency>
+  			<groupId>jetty</groupId>
+  			<artifactId>jetty-server</artifactId>
+  		</dependency>
+  		
+  		<dependency>
+  			<groupId>jetty.orbit</groupId>
+  			<artifactId>javax.servlet</artifactId>
+  		</dependency>
+  		</dependencies>
+  
+        
+  		
+  		
+  		
+  
+  <dependencyManagement>
+  	<dependencies>
+  		<dependency>
+  			<groupId>jetty</groupId>
+  			<artifactId>jetty-servlet</artifactId>
+  			<version>9.3.0.M1</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>jetty</groupId>
+  			<artifactId>jetty-server</artifactId>
+  			<version>9.3.0.M1</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>jetty.orbit</groupId>
+  			<artifactId>javax.servlet</artifactId>
+  			<version>2.5.0.v201103041518</version>
+  		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+</project>
