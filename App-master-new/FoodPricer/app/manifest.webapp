@@ -1,25 +1,25 @@
 {
-    "version":"1.0",
-	"name": "FoodPricer",
-    "description": "С помощью этого приложения вы можете получить список продуктовых магазинов, находящихся поблизости, и узнать актуальные цены на продукты питания",
-    "launch_path": "/index.html",
-    "icons": {
-        "16": "/css/images/icon_16.png",
-        "32": "/css/images/icon_32.png",
-        "48": "/css/images/icon_48.png",
-        "128": "/css/images/icon_128.png"
+  "version": "1.0",
+  "name": "FoodPricer",
+  "description": "С помощью этого приложения вы можете получить список продуктовых магазинов, находящихся поблизости, и узнать актуальные цены на продукты питания",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/css/images/icon_16.png",
+    "32": "/css/images/icon_32.png",
+    "48": "/css/images/icon_48.png",
+    "128": "/css/images/icon_128.png"
+  },
+  "developer": {
+    "name": "RK"
+  },
+  "default_locale": "ru",
+  "type": "privileged",
+  "permissions": {
+    "geolocation": {
+      "description": "Для геолокации"
     },
-	"developer": {
-        "name": "RK"
-    },
-    "default_locale": "ru",
-	"type": "privileged",
-    "permissions": {
-		"geolocation": {
-            "description" : "Для геолокации"
-        },
-		"systemXHR": { 
-		    "description": "Для сетевых запросов" 
-	    }
+    "systemXHR": {
+      "description": "Для сетевых запросов"
     }
+  }
 }
