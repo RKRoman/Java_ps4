@@ -1,0 +1,28 @@
+/* Заголовки */
+.ui-header .ui-title {
+	margin: 0.6em 20% 0.8em;
+}
+
+/* Кнопки */
+.ui-btn-inner {
+	font-size: 14px;
+}
+
+/* Подписи к элементам управления */
+label.ui-slider {
+	font-size: 14px;
+}
+
+/* Размер текста на странице о приложении */
+#about-page .ui-content {
+	font-size: 14px;
+}
+
+/* Страница с магазинами */
+.shops-page-heading {
+	margin: 0 auto 5px auto;
+}
+
+#shops-page-list-heading {
+	margin: 15px auto 30px;
+}
