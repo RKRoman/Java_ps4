@@ -27,9 +27,13 @@ function showShopsPage() {
 	*x,y - наше местоположение; x1,y1-координаты магазина, rad - заданный радиус
 */
 function radius (x,y,x1,y1,rad){
-  var r=Math.sqrt(Math.pow((x1-x)*111.111,2)+Math.pow((y1-y)*111.111,2)) ;
-  tr=(r<rad);  //для вхождения в радиус 
-  return (parseFloat(r.toFixed(1)));
+	x=x*0.0174532925;
+	x1=x1*0.0174532925;
+	y=y*0.0174532925;
+	y1=y1*0.0174532925;
+	var r=6378137*Math.acos(Math.cos(x)*Math.cos(x1)*Math.cos(Math.abs(y-y1))+Math.sin(x)*Math.sin(x1))/1000;
+	tr=(r<rad);  //для вхождения в радиус 
+	return (parseFloat(r.toFixed(1)));
 }
 
 /**

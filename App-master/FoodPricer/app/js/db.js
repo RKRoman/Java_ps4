@@ -1,5 +1,5 @@
 var 
-remoteDB = new PouchDB(''),
+remoteDB = new PouchDB(),
 localDB = new PouchDB('shops'),
 remoteDBOptions = {
 	pageSize: 5,
